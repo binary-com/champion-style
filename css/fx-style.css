@@ -110,12 +110,11 @@ h1,h2,h3,h4 {font-weight:400;}
           user-select: none;
   background-image: none;
   background-color:#ffffff;
-  border: 1px solid #ddd;
+  border: 1px solid #ccc;
   border-radius: 2px;
   -webkit-transition: all .2s ease-in-out;
        -o-transition: all .2s ease-in-out;
-          transition: all .2s ease-in-out;
-		  box-shadow: 1px 1px 2px #777;
+          transition: all .2s ease-in-out;		  
 }
 .btn:hover{text-decoration:none; background:#eeeeee; color:#000; border: 1px solid #a2a2a2;}
 a.btn:hover {text-decoration:none;}
@@ -126,7 +125,7 @@ a.btn:hover {text-decoration:none;}
 
 /* ===================   Modifiers   ======================================== */
 
-
+.shadow {box-shadow: 1px 1px 2px #888;}
 .ft--300 {font-weight:300;}
 .ft--400 {font-weight:400;}
 .ft--600 {font-weight:600;}
