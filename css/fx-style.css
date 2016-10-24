@@ -48,6 +48,7 @@ a:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
+
 h1,h2,h3,h4 {font-weight:400;}
 
 /* Tests */
@@ -74,13 +75,19 @@ h1,h2,h3,h4 {font-weight:400;}
    Methodology: Block__element__element
 */
 .FX__Header {border-bottom:1px solid #dedede;}
-.FX__Logo {padding-top:10px; padding-bottom:10px;}
-.FX__Logo img {max-width:100%;}
+.FX__Header__Logo {padding-top:10px; padding-bottom:10px;}
+.FX__Header__Logo img {max-width:100%;}
 .FX__Header__cta {text-align:right; margin-top:30px;}
 @media (max-width: 980px) {
-	.FX__Logo {padding-top:10px; padding-bottom:10px; text-align:center;}
+	.FX__Header__Logo {padding-top:10px; padding-bottom:10px; text-align:center;}
 	.FX__Header__cta {text-align:center; margin-top:30px; margin-bottom:20px;}
 }
+
+
+/* ===========================================================================
+   Elelments
+   Methodology: Block__element__element
+*/
 
 /* Buttons */
 .btn {
