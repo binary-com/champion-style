@@ -126,7 +126,8 @@ a.btn:hover {text-decoration:none;}
 
 /* ===================   Modifiers   ======================================== */
 
-.shadow {box-shadow: 1px 1px 2px #c9c9c9;}
+.shadow {box-shadow: 1px 1px 3px #ccc;}
+.shadow:hover {box-shadow: 1px 1px 3px #888;}
 .ft--300 {font-weight:300;}
 .ft--400 {font-weight:400;}
 .ft--600 {font-weight:600;}
