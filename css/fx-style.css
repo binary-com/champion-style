@@ -86,6 +86,14 @@ h1,h2,h3,h4 {font-weight:400;}
 
 
 /* ===========================================================================
+   Block: Footer 
+   Selector: FX__Footer
+   Methodology: Block__element__element
+*/
+.FX__Footer {display:table; width:100%; background-color:#004385; font-size:12px; color:#fff; padding:5px 0px; margin-top:30px; padding-top:20px; padding-bottom:20px; }
+
+
+/* ===========================================================================
    Elelments
    Methodology: Block__element__element
 */
@@ -119,6 +127,36 @@ h1,h2,h3,h4 {font-weight:400;}
 }
 .btn:hover{text-decoration:none; background:#013365; color:#fff; border: 1px solid #013365;}
 a.btn:hover {text-decoration:none;}
+
+.btn--sm {
+  display: inline-block;
+  padding: 4px 8px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-weight: normal;
+  font-size: 12px;
+  color:#000;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  background-color:#ffffff;
+  border: 1px solid #dedede;
+  border-radius: 2px;
+  -webkit-transition: all .2s ease-in-out;
+       -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+.btn--sm:hover{text-decoration:none; background:#013365; color:#fff; border: 1px solid #013365;}
+a.btn--sm:hover {text-decoration:none;}
 
 .btn--default {color: #ffffff!important; background: #004385; border: 1px solid transparent;}
 .btn--default:hover {color: #ffffff!important; background: #013365; border: 1px solid transparent;}
