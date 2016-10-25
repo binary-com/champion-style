@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<h1>Style</h1>
+<h1>FX Style</h1>
 <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, <a href="">per inceptos himenaeos</a>. Ut adipiscing felis adipiscing eros pretium tincidunt. Sed blandit felis at nibh lacinia lobortis. Maecenas eget augue id sem tincidunt lobortis sed et ante. Pellentesque pretium velit quis erat commodo ultrices. Morbi porta sem feugiat sapien vulputate et imperdiet nisl viverra. <a href="">Nam felis nunc, faucibus id cursus eget</a>, mattis ac mi. Suspendisse sollicitudin erat eget lectus commodo convallis pellentesque libero laoreet. Quisque viverra turpis ac tellus feugiat dapibus. Aliquam consequat malesuada libero laoreet mattis. Suspendisse ullamcorper dignissim orci, id accumsan arcu condimentum sed.</p>
 <h2>Quick Start</h2>
 <p>Copy-paste the stylesheet <code class="highlighter-rouge">&lt;link&gt;</code> into your <code class="highlighter-rouge">&lt;head&gt;</code> before all other stylesheets to load Champion FX CSS.</p>
@@ -9,70 +9,34 @@ layout: default
 <h2>Layout</h2>
 {% for page in site.pages limit:15 %}  
 {% if page.tag == "layout" %}
-<div class="row list--item">
-	<div class="col-sm-12">
-		<div class="Page-List__item__excerpt">	
-		    <a class="Page-List__item__title" href="{{ page.url | prepend: site.url }}"><h3>{{ page.title }}</h3></a>
-		<p>{{ page.excerpt }}</p>	
-		<p><a class="btn shadow" href="{{ page.url | prepend: site.url }}">{{ page.title }}</a></p>
-		</div>
-	</div>	
-</div>
+<a class="btn--sm shadow" href="{{ page.url | prepend: site.url }}">{{ page.title }}</a>
 {% endif %}
 {% endfor %}
 <h2>Blocks</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nunc metus, placerat nec vulputate sit amet, semper non metus. Morbi vel mi sapien, a egestas nunc. Vivamus bibendum lacinia elit ultrices pellentesque. Integer ac enim sit amet leo volutpat rhoncus eget sed lacus. Nunc aliquam bibendum sem, ut sagittis sem vehicula sed.</p>
 {% for page in site.pages limit:15 %}  
 {% if page.tag == "block" %}
-<div class="row list--item">
-	<div class="col-sm-12">
-		<div class="Page-List__item__excerpt">	
-		    <a class="Page-List__item__title" href="{{ page.url | prepend: site.url }}"><h3>{{ page.title }}</h3></a>
-		<p>{{ page.excerpt }}</p>	
-		<p><a class="btn shadow" href="{{ page.url | prepend: site.url }}">{{ page.title }}</a></p>
-		</div>
-	</div>	
-</div>
+	<a class="btn--sm shadow" href="{{ page.url | prepend: site.url }}">{{ page.title }}</a>		
 {% endif %}
 {% endfor %}
 <h2>Elements</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nunc metus, placerat nec vulputate sit amet, semper non metus. Morbi vel mi sapien, a egestas nunc. Vivamus bibendum lacinia elit ultrices pellentesque. Integer ac enim sit amet leo volutpat rhoncus eget sed lacus. Nunc aliquam bibendum sem, ut sagittis sem vehicula sed.</p>
 {% for page in site.pages limit:15 %}  
 {% if page.tag == "element" %}
-<div class="row list--item">
-	<div class="col-sm-12">
-		<div class="Page-List__item__excerpt">	
-		    <a class="Page-List__item__title" href="{{ page.url | prepend: site.url }}"><h3>{{ page.title }}</h3></a>
-		<p>{{ page.excerpt }}</p>	
-		<p><a class="btn shadow" href="{{ page.url | prepend: site.url }}">{{ page.title }}</a></p>
-		</div>
-	</div>	
-</div>
+<a class="btn--sm shadow" href="{{ page.url | prepend: site.url }}">{{ page.title }}</a>
 {% endif %}
 {% endfor %}
 <h2>Modifiers</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nunc metus, placerat nec vulputate sit amet, semper non metus. Morbi vel mi sapien, a egestas nunc. Vivamus bibendum lacinia elit ultrices pellentesque. Integer ac enim sit amet leo volutpat rhoncus eget sed lacus. Nunc aliquam bibendum sem, ut sagittis sem vehicula sed.</p>
 {% for page in site.pages limit:15 %}  
 {% if page.tag == "modifier" %}
-<div class="row list--item">
-	<div class="col-sm-12">
-		<div class="Page-List__item__excerpt">	
-		    <a class="Page-List__item__title" href="{{ page.url | prepend: site.url }}"><h3>{{ page.title }}</h3></a>
-		<p>{{ page.excerpt }}</p>	
-		<p><a class="btn shadow" href="{{ page.url | prepend: site.url }}">{{ page.title }}</a></p>
-		</div>
-	</div>	
-</div>
+<a class="btn--sm shadow" href="{{ page.url | prepend: site.url }}">{{ page.title }}</a>
 {% endif %}
 {% endfor %}
 <h2>Media</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nunc metus, placerat nec vulputate sit amet, semper non metus. Morbi vel mi sapien, a egestas nunc. Vivamus bibendum lacinia elit ultrices pellentesque. Integer ac enim sit amet leo volutpat rhoncus eget sed lacus. Nunc aliquam bibendum sem, ut sagittis sem vehicula sed.</p>
 {% for page in site.pages limit:15 %}  
 {% if page.tag == "media" %}
-<div class="row list--item">
-	<div class="col-sm-12">
-		<div class="Page-List__item__excerpt">	
-		    <a class="Page-List__item__title" href="{{ page.url | prepend: site.url }}"><h3>{{ page.title }}</h3></a>
-		<p>{{ page.excerpt }}</p>	
-		<p><a class="btn shadow" href="{{ page.url | prepend: site.url }}">{{ page.title }}</a></p>
-		</div>
-	</div>	
-</div>
+<a class="btn--sm shadow" href="{{ page.url | prepend: site.url }}">{{ page.title }}</a>
 {% endif %}
 {% endfor %}
