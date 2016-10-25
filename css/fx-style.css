@@ -77,10 +77,11 @@ h1,h2,h3,h4 {font-weight:400;}
 */
 .FX__Header {border-bottom:1px solid #dedede;}
 .FX__Header__Logo {padding-top:10px; padding-bottom:10px;}
-.FX__Header__Logo img {max-width:100%;}
-.FX__Header__cta {text-align:right; margin-top:30px;}
+.FX__Header__Logo img {width:200px;margin-left:-18px}
+.FX__Header__cta {text-align:right; margin-top:25px;}
 @media (max-width: 980px) {
 	.FX__Header__Logo {padding-top:10px; padding-bottom:10px; text-align:center;}
+	.FX__Header__Logo img {width:200px;margin-left:-18px}
 	.FX__Header__cta {text-align:center; margin-top:30px; margin-bottom:20px;}
 }
 
@@ -164,7 +165,7 @@ a.btn--sm:hover {text-decoration:none;}
 
 /* ===================   Modifiers   ======================================== */
 
-.shadow {box-shadow: 1px 1px 3px #ccc;}
+.shadow {box-shadow: 1px 1px 3px #888;}
 .shadow:hover {box-shadow: 1px 1px 3px #888;}
 .ft--300 {font-weight:300;}
 .ft--400 {font-weight:400;}
