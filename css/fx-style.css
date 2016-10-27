@@ -218,6 +218,8 @@ a.btn--xl:hover {text-decoration:none; box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.
 .btn--sm:hover{text-decoration:none; background:#ffffff; color:#000000; box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);}
 a.btn--sm:hover {text-decoration:none; box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);}
 
+.btn--flat {box-shadow: none;}
+.btn--flat:hover {box-shadow: none!important;}
 .btn--default {color: #ffffff!important; background: #004385; border: 1px solid transparent;}
 .btn--default:hover {color: #ffffff!important; background: #013365; border: 1px solid transparent;}
 .btn--default--light {color: #ffffff!important; background: #004385; border: 1px solid transparent;}
@@ -226,8 +228,18 @@ a.btn--sm:hover {text-decoration:none; box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.
 .btn--white--default:hover {color: #ffffff!important; background: #004385; border: 1px solid transparent;}
 .btn--white {color: #000000!important; background: #ffffff; border: 1px solid #dedede}
 .btn--white:hover {color: #000000!important; background: #eeeeee; border: 1px solid #dedede;}
-.btn--flat {box-shadow: none;}
-.btn--flat:hover {box-shadow: none!important;}
+.btn--danger {color: #ffffff!important; background: #CC0000; border: 1px solid #CC0000}
+.btn--danger:hover {color: #ffffff!important; background: #ff4444; border: 1px solid #ff4444;}
+.btn--warning {color: #ffffff!important; background: #FF8800; border: 1px solid #FF8800}
+.btn--warning:hover {color: #ffffff!important; background: #f7b42e; border: 1px solid #f7b42e;}
+.btn--success {color: #ffffff!important; background: #007E33; border: 1px solid #007E33}
+.btn--success:hover {color: #ffffff!important; background: #22b65e; border: 1px solid #22b65e;}
+.btn--info {color: #ffffff!important; background: #0099CC; border: 1px solid #0099CC}
+.btn--info:hover {color: #ffffff!important; background: #33b5e5; border: 1px solid #33b5e5;}
+.btn--dark {color: #ffffff!important; background: #333333; border: 1px solid #333333}
+.btn--dark:hover {color: #ffffff!important; background: #787878; border: 1px solid #787878;}
+.btn--black {color: #ffffff!important; background: #000000; border: 1px solid #000000}
+.btn--black:hover {color: #ffffff!important; background: #444444; border: 1px solid #444444;}
 
 /* ===================   Modifiers   ======================================== */
 .shadow {
