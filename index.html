@@ -44,7 +44,7 @@ layout: default
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nunc metus, placerat nec vulputate sit amet, semper non metus. Morbi vel mi sapien, a egestas nunc. Vivamus bibendum lacinia elit ultrices pellentesque. Integer ac enim sit amet leo volutpat rhoncus eget sed lacus. Nunc aliquam bibendum sem, ut sagittis sem vehicula sed.</p>
 {% for page in site.pages limit:15 %}  
 {% if page.tag == "colors" %}
-<a class="btn--sm " href="{{ page.url | prepend: site.url }}">{{ page.title }}</a>
+<a class="btn--sm btn--default" href="{{ page.url | prepend: site.url }}">{{ page.title }}</a>
 {% endif %}
 {% endfor %}
 <h2>Media</h2>
